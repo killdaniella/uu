@@ -22,3 +22,7 @@
   .five {
     color: rgb(128, 128, 128);
   }
+
+  .avg {
+    font-size: 2vh;
+  }
