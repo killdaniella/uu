@@ -39,7 +39,7 @@ async function download() {
     const response = await fetch(url);
     const data = await response.json();
     const totalRating = data.reduce((sum, item) => sum + item.rating, 0);
-    const averageRating = totalRating / data.length;
+    const averageRating = totalRating / data.length;n 
 
     const element = document.querySelector(".avg");
     if (element) {
